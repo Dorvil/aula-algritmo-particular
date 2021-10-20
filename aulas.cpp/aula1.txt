@@ -1,0 +1,14 @@
+#include <iostream>
+
+//para nao precisa coloca (std::)) podemos usar esse comando aqui
+ //using namespace std;
+
+int main() {
+//comando de sainda
+std::cout << "Bom dia meu nome é Davidson\nSeja muito Bem vido";
+
+//para o programa espera ocomando fecha precisa esse comando aqui.
+//system("pause");
+
+  return 0;
+}

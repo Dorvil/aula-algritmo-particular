@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+int a=5, b=2;
+int soma = a+b;
+//tambem dava pra fazer //int soma; 
+//soma=a+b;
+cout << "o resultado soma " << soma << endl;
+//tambem dava pra fazer 
+//cout << "o resultado soma " << a+b << endl;
+
+
+int sub = a-b;
+cout << "o resultado da sub " << sub << endl;
+
+
+int mul = a*b;
+cout << "o resultado da mul " << mul << endl;
+
+
+int div = a/b;
+cout << "o resultado da sub " << div << endl;
+
+int restodiv = a%b;
+cout << "o resultado do restodiv " << restodiv << endl;
+
+float div1 = (float)a/(float)b;
+cout << "o resultado da divisao " << div1 << endl;
+ return 0;
+}

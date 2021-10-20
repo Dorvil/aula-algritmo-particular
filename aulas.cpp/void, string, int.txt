@@ -1,0 +1,31 @@
+
+#include <iostream>
+using namespace std;
+void mensagem(){
+	cout << "Ola sou sua assistencia ";
+}
+
+int main(){
+mensagem();
+int idade;
+string nome;
+int num1;
+int num2;
+int soma = num1 +  num2;
+cout <<  "Qual e seu nome?\n ";
+cin >> nome;
+cout << "Bem vindo " << nome ;
+cout << "\nQual e sua idade?\n ";
+cin >> idade;
+cout << "Que legal " << nome << " entao voce tem " << idade << " anos \n";
+cout << "Bora Fazer uma calcula entao \n" << nome;
+cout << "\nDigite um numero ";
+cin >> num1;
+cout << "\nDigite  segundo numero ";
+cin >> num2;
+cout << "Entao " << nome << " a soma e:" << num1 +  num2;
+
+
+  return 0;
+
+}

@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+//esse codigo é pra imprimir numero inteir.
+int main(){
+  int inteiro;
+  inteiro = 5;
+  cout << inteiro << endl;
+
+  //esse codigo é pra imprimir numero quebrado (numero com ,) 
+float real;
+real = 5.2;
+cout << real << endl;
+
+//(endl) é o comando pra pular a linha
+
+ //esse codigo é pra imprimir numero quebrado so que numero maio até 15 casas 
+double real2;
+real2 = 5.2e99;
+cout << real2 << endl;
+
+ //esse codigo é pra imprimir se é "verdadeiro(true 1)" ou "falso(false 0)"
+bool booleano;
+booleano = true;
+cout << booleano << endl;
+
+//esse codigo é pra imprimir (letra) NB: char se escrever na uma aspas só ('')
+char letra;
+letra = 'b';
+cout << letra << endl;
+
+//esse codigo é pra imprimir varias letras screve dentro de aspas douplas
+string palavra;
+palavra = "bola";
+cout << palavra << endl;
+  return 0;
+}
+
+
+exemplo:
+
+#include <iostream>
+using namespace std;
+//esse codigo é pra imprimir numero inteir.
+int main(){
+int idade;
+ cout << "qual e seu nome?" << endl;
+ cin >> idade;
+ cout << "entao voce tem " << idade << endl;
+}

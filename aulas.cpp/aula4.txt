@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+
+//essa função é pra imprimir uma coisa sem sair nada é tipo uma anuncio
+void mensagem(){
+	cout <<"bem vindo ao programa \n" ;
+}
+
+int main(){
+//aqui o variavel (mensagem) chama a funçao mensagem ou seja ele imprimir a funcao
+mensagem();
+int num1;
+int num2;
+int multiplica;
+
+cout << "digite um numero " ;
+cin >> num1;
+cout << "digite um segundo numero " ;
+cin >> num2;
+cout << multiplica << num1 * num2;
+
+
+  return 0;
+
+}
+
+
+
+#include <iostream>
+using namespace std;
+
+//essa função é pra imprimir uma coisa sem sair nada é tipo uma anuncio
+void mensagem(){
+	cout <<"bem vindo ao programa \n" ;
+}
+
+int main(){
+//aqui o variavel (mensagem) chama a funçao mensagem ou seja ele imprimir a funcao
+mensagem();
+int num1;
+int num2;
+int soma = num1 + num2;
+
+
+
+cout << "digite um numero " ;
+cin >> num1;
+cout << "digite um segundo numero " ;
+cin >> num2;
+cout << "soma:" << num1 + num2 ;
+
+
+  return 0;
+
+}

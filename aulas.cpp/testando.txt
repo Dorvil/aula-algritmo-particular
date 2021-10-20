@@ -1,0 +1,14 @@
+using namespace std;
+
+
+int main(){
+string palavra;
+int idade;
+idade;
+palavra;
+cout << "qual é seu nome e sua idade" << endl;
+cin >> palavra >> idade;
+cout << "entao seu nome e " << palavra << " e voce tem " << idade << " anos " << endl;
+  return 0;
+
+}
